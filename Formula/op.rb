@@ -1,26 +1,26 @@
 class Op < Formula
   desc "OpenPencil command-line tool"
   homepage "https://github.com/zseven-w/openpencil"
-  version "0.8.1"
+  version "0.8.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/zseven-w/openpencil/releases/download/v#{version}/op-cli-macos-aarch64.tar.gz"
-      sha256 "60b30253f93fee173c2b7827fccca05161eab059342c4361e9d7d5e1bc78f073"
+      sha256 "61371331dc104f5906dc71a57ca8c7e5cb635bf7206c9df0d76c5eb59e741c91"
     else
       url "https://github.com/zseven-w/openpencil/releases/download/v#{version}/op-cli-macos-x86_64.tar.gz"
-      sha256 "6677568f64b85e7aaf151a18186d629029e7aa84170b1449c0ef7ec4bb174dd7"
+      sha256 "c19506ed18ea4674f333bef646f58d7a641a4f5a2efc1cddd71d5fb0b0e1cab9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/zseven-w/openpencil/releases/download/v#{version}/op-cli-linux-aarch64.tar.gz"
-      sha256 "ee1847704eb8e717b986608c0b7eaab9613fbffb833bf778ac9bb62662ccf906"
+      sha256 "2625ed6c0051d50656f3807c658541a6275a2333f0b834368c48a793a9d268fc"
     else
       url "https://github.com/zseven-w/openpencil/releases/download/v#{version}/op-cli-linux-x86_64.tar.gz"
-      sha256 "956c65de1f7780ec179ca1ad4b12fd56779a475a5b76befca4da7143a65a5188"
+      sha256 "aeffb1114857e7b810e66cd9ec927fa883dde0cb3ebf0a6ee26891e2888d20a2"
     end
   end
 
