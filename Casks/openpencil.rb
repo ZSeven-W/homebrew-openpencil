@@ -2,11 +2,11 @@ cask "openpencil" do
   version "0.8.6"
 
   on_arm do
-    sha256 "668b6ad7d8378b490245703dc932cadff8688085f656fdc200a1615abd1b0838"
+    sha256 "384d81337fa45e7329c88840fbea887520ae38d6fd601c39d2e7c33e672a4c2b"
     url "https://github.com/zseven-w/openpencil/releases/download/v#{version}/OpenPencil-#{version}-arm64-mac.dmg"
   end
   on_intel do
-    sha256 "6aeeae68fadd50976d4cec16fa439b28a60a4805302ae38c35567de98bc2084d"
+    sha256 "5fa76578cd749a142b78bcd6f5a3220fd27a868c142e3f38216be1c1b3a7d06d"
     url "https://github.com/zseven-w/openpencil/releases/download/v#{version}/OpenPencil-#{version}-x64-mac.dmg"
   end
 
